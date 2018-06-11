@@ -1,0 +1,423 @@
+@font-face {
+    font-family: 'Citroen';
+    src: url('../fonts/Citroen_regular/Citroen.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Citroen_regular/Citroen.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Citroen_regular/Citroen.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Citroen_regular/Citroen.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Citroen_regular/Citroen.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Citroen_regular/Citroen.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Citroen Bold';
+    src: url('../fonts/Citroen_bold/Citroen-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Citroen_bold/Citroen-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Citroen_bold/Citroen-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Citroen_bold/Citroen-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Citroen_bold/Citroen-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Citroen_bold/Citroen-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Citroen Headline';
+    src: url('../fonts/Citroen_headline/ABFlockHeadline-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Citroen_headline/Citroen-ABFlockHeadline-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Citroen_headline/Citroen-ABFlockHeadline-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Citroen_headline/Citroen-ABFlockHeadline-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Citroen_headline/ABFlockHeadline-Bold-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Citroen_headline/ABFlockHeadline-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Citroen Light';
+    src: url('../fonts/Citroen_light/Citroen-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Citroen_light/Citroen-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Citroen_light/Citroen-Light.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Citroen_light/Citroen-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Citroen_light/Citroen-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Citroen_light/Citroen-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+form * {
+    background: none;
+}
+
+input[type=text], input[type=email], input[type=submit],textarea, button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid #666;
+    background: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.group:before, .group:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.group:after { clear: both; }
+.group { zoom: 1; }
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/***********CONTENT*************/
+
+main{
+    width: 100%;
+    max-width: 1130px;
+    margin: 0 auto;
+
+}
+
+#content{
+    clear: both;
+    overflow: hidden;
+}
+
+.images{
+    min-width: 40%;
+    display: inline-block;
+    height: 490px;
+    background-image: url(../images/birds.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.text{
+    width: 60%;
+    float: right;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+.text h1{
+    margin-bottom: 0;
+    font-family: ABFlockHeadline;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #dc002e;
+}
+
+.text h2{
+    margin: 0;
+    font-family: ABFlockHeadline;
+    text-transform: uppercase;
+    color: #dc002e;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.paragraph{
+    width: 90%;
+}
+
+.paragraph p{
+    margin: 0;
+    font-family: "Citroen";
+    font-size: 22px;
+
+}
+
+.bold{
+    font-family: "Citroen Bold";
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.red{
+    color: #dc002e;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.txt{
+    margin-bottom: 20px !important;
+}
+
+
+.logo{
+    margin-top: 20px;
+}
+
+/*.birds{
+    position: absolute;
+    top: 176px;
+    z-index: 1;
+}*/
+
+
+/***********************LOGIN FORM***********************/
+
+
+form{
+    background-color: #dc002e;
+    color: #fff;
+
+}
+
+.wrap {
+    padding: 43px 10% 25px;
+    font-family: "Citroen Light";
+}
+
+.obj1, .obj2{
+    overflow: hidden;
+}
+
+.boxes {
+    float: left;
+}
+
+.obj1 .boxes {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.obj1 .boxes:last-of-type {
+    margin-bottom: 0;
+    width: 58%;
+}
+
+
+.obj1 .boxes:nth-of-type(2) {
+    margin-right: 10%;
+}
+
+.obj1{
+    margin-bottom: 35px;
+}
+
+
+.obj2 .boxes.mentions{
+    width: 20%;
+}
+
+.obj2 .boxes.conditions, .obj2 .boxes.newsletter{
+    width: 33%;
+}
+
+.obj2 .boxes:nth-of-type(3){
+    margin-right: 2%;
+}
+
+/****** Hiding the arrow from the select tag. Not with :after!!***** */
+select {
+    /*for firefox*/
+    -moz-appearance: none;
+    /*for chrome*/
+    -webkit-appearance:none;
+    /* Some browsers will not display the caret when using calc, so we put the fallback first */
+    background: url("../images/down_arrow.jpg") no-repeat 95%; /* !important used for overriding all other customisations */
+
+}
+
+/*for IE10*/
+select::-ms-expand {
+    display: none;
+}
+
+/*****WRONG*****
+
+.styled-select::after {*/
+/*content: "";*/
+/*background: url(images/down_arrow.jpg) no-repeat;*/
+/*display: inline-block;*/
+/*position: absolute;*/
+/*right: 0;*/
+/*top: 8px;*/
+/*width: 14px;*/
+/*height: 7px;*/
+/*}*/
+
+
+/**************************************************/
+span{
+    margin:5px;
+}
+
+.obj1 label{
+    text-transform: uppercase;
+    font-size: 19px;
+}
+
+
+.obj1 input[type=text], input[type=email], select{
+    font-family: 'Citroen';
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    border: none;
+    height: 21px;
+    width: 169px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.obj1 select{
+    width: 75px;
+}
+
+#email{
+    width: 433px;
+}
+
+.mentions p{
+    margin:0px !important;
+}
+
+
+/******* Styling the CHECKBOX  *******/
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.obj2 label {
+    padding-left: 1.25em;
+    background: url("../images/sprite.jpg") no-repeat top left;
+}
+
+input[type="checkbox"] + label {
+    background-position: 0 0; width: 16px; height: 16px;
+}
+input[type="checkbox"]:checked + label {
+    background-position: 0 -24px;
+    width: 16px;
+    height: 16px;
+}
+
+
+.newsletter label{
+    display: block;
+    width: 100% !important;
+    margin-bottom: 16px;
+}
+
+/**********************/
+
+input[type='submit'] {
+    font-family: "Citroen Bold";
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #dc002e;
+    background-color: #fff;
+    padding: 4px 9px 2px;
+    border: none;
+    min-width: 87px;
+}
+
+input[type='submit']:hover {
+
+    background-color: #dc002e;
+    color: #fff;
+    border: none;
+}
+
+/******RESPONSIVE MOBILE*********/
+
+@media all and (max-width: 899px) and (min-width: 320px){
+
+    .images{
+        display: block;
+        max-width: 100%!important;
+        margin: 0 auto;
+        text-align: center;
+        margin: 10%;
+
+    }
+
+    .logo{
+        margin-bottom: 20px;
+    }
+
+    .birds{
+        position: unset;
+    }
+
+    .text {
+        width: 100% !important;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .text h1{
+        font-size: 4em;
+    }
+
+    .paragraph{
+        padding: 20px 10%;
+        width: 100% !important;
+    }
+
+
+     .obj1 .boxes{
+         width: 100% !important;
+     }
+
+    .obj1 .boxes label{
+        display: block;
+    }
+
+    .obj1 .boxes input{
+        width: 100% !important;
+    }
+
+    .obj1 select{
+        width: 100%;
+    }
+
+    .obj2 .boxes{
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .newsletter {
+        margin-bottom: 40px !important;
+    }
+
+    .newsletter label {
+        display: block;
+        width: 100% !important;
+    }
+}
+
+@media all and (max-width: 1124px) and (min-width: 900px){
+
+    .obj1 .boxes{
+        width: 45%;
+    }
+
+    .email{
+        width: 55% !important;
+    }
+
+    #email{
+        width: 300px;
+    }
+
+    .obj2 .boxes.conditions, .obj2 .boxes.newsletter {
+        width: 35% !important;
+    }
+
+    .newsletter label{
+        display: block;
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+}
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=no" />
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section id="content">
+            <div class="images">
+                <div class="logo">
+                    <img src="images/angry_birds_logo.jpg">
+                </div>
+
+               <!-- <div class="birds">
+                    <img src="images/birds.png">
+                </div>-->
+            </div>
+
+            <div class="text">
+                <h1>Félicitations!</h1>
+                <h2>Vous avez trouvé tous les Angry Birds.</h2>
+
+                <div class="paragraph">
+                    <p class="bold">Vous participez au tirage au sort pour gagner</p>
+                    <p class="red">1 voyage pour 5 personnes en Finlande. </p>
+                    <p class="txt">Vous aurez peut-être la chance de vous envoler en famille pour vivre
+                        une expérience inoubliable durant laquelle vous ferez la connaissance
+                        de Red et de ses amis au parc aventure Angry Birds de Särkänniemi.</p>
+
+                    <p>Renseignez vite vos coordonnées pour participer au tirage au sort.</p>
+                </div>
+            </div>
+        </section>
+
+        <form class="group">
+            <div class="wrap">
+                <div class="obj1">
+
+                    <div class="boxes civil">
+                        <label for="civilite">Civilité* <span>:</span></label>
+
+                                <select id="civilite">
+                                    <option value="empty"></option>
+                                    <option value="swiss">Swiss</option>
+                                    <option value="france">France</option>
+                                    <option value="germany">Germany</option>
+                                    <option value="Italy">Italy</option>
+                                </select>
+
+                    </div>
+
+                    <div class="boxes nom">
+                        <label class="space" for="nom">Nom* <span>:</span></label>
+                        <input type="text" name="nom" id="nom" required>
+                    </div>
+
+                     <div class="boxes prenom">
+                        <label class="space" for="prenom">Prénom* <span>:</span></label>
+                        <input type="text" name="prenom" id="prenom" required>
+                     </div>
+
+                    <div class="boxes email">
+                        <label for="email">E-mail* <span>:</span></label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+
+
+
+                <div class="obj2">
+
+                    <div class="boxes mentions">
+                        <p>* Mentions obligatoires</p>
+                    </div>
+
+                    <div class="boxes conditions">
+                        <input type="checkbox" name="coditions" id="conditons">
+                        <label for="conditons">J'accepte les <u>conditions de participation</u></label>
+                    </div>
+
+                    <div class="boxes newsletter">
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label for="newsletter">J'accepte de recevoir la newsletter Citroёn dddadsds adsddasdsdasd asdbdbbbd fbhdfhdfah</label>
+                    </div>
+
+
+                    <div class="boxes button">
+                        <input type="submit" value="Participer" />
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
